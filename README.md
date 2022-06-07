@@ -47,12 +47,15 @@ This section should list any major frameworks that you built your project using.
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+This is a brief tutorial on how to install and start use the basic functionalities of Smart Barbell.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+Arduino Uno Rev3 will be used as the processor of our IoT Device. So, Arduino IDE should be first installed in your environment.
+
+_For downloading Arduino IDE, please refer to the [Documentation](https://www.arduino.cc/en/software
+)_
+
 
 * npm
 
@@ -62,25 +65,20 @@ npm install npm@latest -g
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-
-2. Clone the repo
+1. Clone the repo
 
 ```sh
 git clone https://github.com/your_username_/Project-Name.git
 ```
 
-3. Install NPM packages
+2. Install requirements.txt
 
 ```sh
-npm install
+pip install - r requirements.txt
 ```
 
-4. Enter your API in `config.js`
+3. 
 
-```JS
-const API_KEY = 'ENTER YOUR API';
-```
 
 ## Usage
 
