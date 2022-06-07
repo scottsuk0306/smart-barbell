@@ -1,0 +1,59 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="{% static 'sensevis/style.css' %}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <select name="indicators" id="indicators">
+        <option value="calorie">Calorie</option>
+        <option value="pullups">Pullups</option>
+      </select>
+      <div class="date-input">
+        <input class="date-input"" type="date">
+        <span>to</span>
+        <input class="date-input" type="date">
+      </div>
+      <div>
+        <canvas id="graph" height="500px"></canvas>
+      </div>
+      <script>
+        const ctx = document.getElementById('graph').getContext('2d');
+        Chart.defaults.font.size = 32;
+        const myChart = new Chart(ctx, {
+          type: 'bar',
+          data: {
+            labels: ['Jan 1', 'Jan 2', 'Jan 3', 'Jan 4', 'Jan 5', 'Jan 6',
+              'Jan 7', 'Jan 8', 'Jan 9', 'Jan 10', 'Jan 11', 'Jan 12'],
+            datasets: [{
+              axis: 'y',
+              label: '',
+              data: [120, 190, 30, 50, 20, 30, 10, 20, 30, 50, 20, 30],
+              borderColor: 'rgba(255, 99, 132, 1)',
+              borderWidth: 10,
+            }]
+          },
+          options: {
+            indexAxis: 'y',
+            scales: {
+              x: {
+                title: {
+                  display: true,
+                  text: 'kcal'
+                },
+                beginAtZero: true
+              }
+            },
+            plugins:{
+              legend: {
+                display: false
+              }
+            }
+          }
+        });
+      </script>
+    </div>
+  </body>
+</html>

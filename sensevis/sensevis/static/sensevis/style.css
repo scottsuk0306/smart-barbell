@@ -1,0 +1,31 @@
+select {
+    border: none;
+    font-size: 5em;
+    font-weight: 700;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333333;
+}
+
+.date-input {
+    border: none;
+    font-size: 1.75em;
+    font-weight: 500;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333333;
+}
+
+.container {
+    width: 880px;
+    margin: 0 auto;
+}
+
+#indicators {
+    margin: 20px 0;
+}
+
+div.date-input {
+    margin: 0 0 20px 0;
+}
