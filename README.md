@@ -7,7 +7,7 @@
   <h3 align="center">Smart Barbell</h3>
 
   <p align="center">
-    An Awesome ReadME Generator To Jumpstart Your Projects!
+    Your Exciting and Motivating companion on Workout!
     <br/>
     <br/>
     <a href="https://github.com/scottsuk0306/smart-barbell"><strong>Explore the docs »</strong></a>
