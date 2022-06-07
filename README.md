@@ -53,15 +53,8 @@ This is a brief tutorial on how to install and start use the basic functionaliti
 
 Arduino Uno Rev3 will be used as the processor of our IoT Device. So, Arduino IDE should be first installed in your environment.
 
-_For downloading Arduino IDE, please refer to the [Documentation](https://www.arduino.cc/en/software
+_For downloading Arduino IDE, please refer to the [Official Download Link](https://www.arduino.cc/en/software
 )_
-
-
-* npm
-
-```sh
-npm install npm@latest -g
-```
 
 ### Installation
 
@@ -76,9 +69,6 @@ git clone https://github.com/your_username_/Project-Name.git
 ```sh
 pip install - r requirements.txt
 ```
-
-3. 
-
 
 ## Usage
 
