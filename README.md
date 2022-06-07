@@ -64,7 +64,7 @@ _For downloading Arduino IDE, please refer to the [Official Download Link](https
 git clone https://github.com/your_username_/Project-Name.git
 ```
 
-2. Install requirements.txt
+2. Install `requirements.txt`
 
 ```sh
 pip install - r requirements.txt
