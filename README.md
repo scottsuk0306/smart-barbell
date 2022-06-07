@@ -1,7 +1,7 @@
 <br/>
 <p align="center">
   <a href="https://github.com/scottsuk0306/smart-barbell">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/scottsuk0306/smart-barbell/blob/main/images/logo.PNG" alt="Logo" width="251" height="158">
   </a>
 
   <h3 align="center">Smart Barbell</h3>
