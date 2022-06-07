@@ -35,6 +35,8 @@
 
 Smart Barbell is an IoT device provided with a web interface which helps people to be more concentrated and motivated to their work out experience. Smart Barbell automatically plays exciting music based on the user's pace, which is calculated by repetition count per minute by sensors, notify the repetition count by beeper, and provides feedback based on users workout data (number of sets, weight, calories, and pace).
 
+This repository is a final projet prototype for 2022 Spring KAIST CS350: Introduction to Software Engineering.
+
 ## Built With
 
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
